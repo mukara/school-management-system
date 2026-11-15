@@ -1,0 +1,349 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SchoolMS
+</name>
+</assembly>
+<members>
+<member name="T:SchoolMS.DatabaseHelper">
+ <summary>
+ Central SQLite access for the school management system.
+ The database file (school.db) lives next to the executable.
+ </summary>
+</member>
+<member name="M:SchoolMS.DatabaseHelper.GetGrade(System.Double)">
+ <summary>Returns the grade text for a numeric score.</summary>
+</member>
+<member name="M:SchoolMS.Schema.Migrate">
+ <summary>Adds newer columns to databases created by earlier versions.</summary>
+</member>
+<member name="M:SchoolMS.Schema.SeedFinance2027">
+ <summary>Seeds 2027 terms and the Christlike Academy 2027 fee structures.</summary>
+</member>
+<member name="M:SchoolMS.Schema.SeedSeniorCombinations">
+ <summary>Seeds the register of KEMIS 2026 senior-school subject combinations.</summary>
+</member>
+<member name="M:SchoolMS.Schema.SeedStudentSubjects">
+ <summary>Gives the sample learners an initial subject selection.</summary>
+</member>
+<member name="M:SchoolMS.Schema.SeedCbcSamples">
+ <summary>Sample national assessments, marks and Grade 7-8 SBA for the CBC demo.</summary>
+</member>
+<member name="T:SchoolMS.FieldSpec">
+ <summary>
+ Describes one field shown in the generic record editor.
+ </summary>
+</member>
+<member name="T:SchoolMS.FinanceGrids">
+ <summary>
+ Every master-data (CRUD) page used by the finance menus. Each function returns
+ a <see cref="T:SchoolMS.GridPageSpec"/> that frmMain opens with <c>OpenGridPage</c>.
+ </summary>
+</member>
+<member name="M:SchoolMS.FinanceGrids.PettyCashBalance(SchoolMS.BeforeSaveEventArgs)">
+ <summary>Rolls the running balance forward whenever a petty cash row is added.</summary>
+</member>
+<member name="T:SchoolMS.FinanceReports">
+ <summary>
+ Every report page used by the finance menus. Each function returns a
+ <see cref="T:SchoolMS.ReportSpec"/> that frmMain opens with <c>OpenReportPage</c>.
+ </summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.Fees">
+ <summary>Billed vs paid vs balance for every active pupil.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.DueFees">
+ <summary>Only pupils who still owe money.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.Receipts">
+ <summary>Receipts issued in the selected period.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.Fines">
+ <summary>Fines issued in the selected period.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.FeesRegister">
+ <summary>Register of fees per class for the selected term.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.DueFeesInvoice">
+ <summary>Fees still owed, formatted as invoices to send home.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.NextTermBalance">
+ <summary>Balances carried forward into the next term.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.BilledExpr(SchoolMS.ReportFilters)">
+ <summary>
+ Per-pupil billed amount as a correlated scalar: the pupil's own
+ <c>StudentFee</c> rows (term fees + transport + carried balance) when they match
+ the term/year filters, otherwise the class-level <c>FeeStructure</c> amount.
+ Expects the alias <c>s2</c> (a Students row) in scope.
+ </summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.BilledJoin(SchoolMS.ReportFilters)">
+ <summary>LEFT JOIN giving a per-pupil Billed column (alias <c>b</c>) for a Students alias <c>s</c>.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.FeeLedgerSql(SchoolMS.ReportFilters,System.Boolean)">
+ <summary>Billed / collected / balance per pupil; optionally only owing pupils.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.AddTotalRow(System.Data.DataTable,System.String,System.String)">
+ <summary>Appends a bold total row for the named numeric column.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.AddRunningBalance(System.Data.DataTable,System.String,System.String,System.String)">
+ <summary>Adds a running balance column built from a debit and a credit column.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.TrialBalance">
+ <summary>Trial balance with a bank reconciliation statement.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.CreditorsReport">
+ <summary>Creditors register (unpaid suppliers).</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.DrCr">
+ <summary>Debit / credit by vote head (DrCr).</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.VoucherSummary">
+ <summary>Voucher summary by vote head.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.DailyCollections">
+ <summary>Daily collections: receipts and payments summarised per day.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.WeeklyCollections">
+ <summary>Weekly collections: receipts and payments summarised per week.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.MonthlyCollections">
+ <summary>Monthly collections: receipts and payments summarised per month.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.CollectionsByPeriod(System.String,System.String,System.String,System.String)">
+ <summary>
+ Builds a day / week / month collection report over fee receipts (Payments) and
+ office vouchers (Voucher), showing income, expenses and net cash per period.
+ </summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.TermTranche">
+ <summary>Term tranche: per-pupil term fee allowance.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.Arrears">
+ <summary>Arrears: pupils still owing money.</summary>
+</member>
+<member name="M:SchoolMS.FinanceReports.FeeSummary">
+ <summary>Fee summary by class.</summary>
+</member>
+<member name="T:SchoolMS.UiTheme">
+ <summary>Shared colours, fonts and control styling used across all pages.</summary>
+</member>
+<member name="M:SchoolMS.UiTheme.LoadLookup(System.Windows.Forms.ComboBox,System.String,System.String,System.String,System.String)">
+ <summary>Loads a combo box from SQL and optionally inserts an "All" row with value 0.</summary>
+</member>
+<member name="T:SchoolMS.PrintHelper">
+ <summary>
+ Shared print engine: branded letterhead, tables, text reports, pagination and previews.
+ </summary>
+</member>
+<member name="M:SchoolMS.PrintHelper.PrintText(System.String,System.String,System.String)">
+ <summary>Preview and print a plain-text report using the school letterhead.</summary>
+</member>
+<member name="M:SchoolMS.PrintHelper.PrintGrid(System.String,System.String,System.Windows.Forms.DataGridView,System.Nullable{System.Boolean})">
+ <summary>Preview and print the visible rows of a grid as a clean table.</summary>
+</member>
+<member name="M:SchoolMS.PrintHelper.PrintTable(System.String,System.String,System.String[],System.Collections.Generic.IEnumerable{System.String[]},System.String[],System.Nullable{System.Boolean})">
+ <summary>Preview and print an arbitrary set of rows with known headers.</summary>
+</member>
+<member name="T:SchoolMS.AppUpdater">
+ <summary>
+ Lightweight self-updater driven by version.txt on GitHub Releases.
+ Compares local version.txt with online version.txt, downloads from releases.
+ </summary>
+</member>
+<member name="M:SchoolMS.AppUpdater.GetLocalVersion">
+ <summary>Reads version from local version.txt file</summary>
+</member>
+<member name="M:SchoolMS.AppUpdater.GetOnlineVersion">
+ <summary>Reads version from online version.txt on GitHub</summary>
+</member>
+<member name="T:SchoolMS.CbcHelper">
+ <summary>
+ CBC assessment maths shared by the CBC page and the report cards.
+ Grade 9 blended score = 20% KPSEA + 20% Grade 7/8 SBA + 60% KJSEA.
+ </summary>
+</member>
+<member name="P:SchoolMS.CbcHelper.Components.HasBlended">
+ <summary>True only when all three national components have been captured.</summary>
+</member>
+<member name="M:SchoolMS.CbcHelper.ForStudent(System.Int32,System.Int32)">
+ <summary>Reads the KPSEA, SBA and KJSEA components for one learner and year.</summary>
+</member>
+<member name="M:SchoolMS.CbcHelper.ExamTypeAverage(System.Int32,System.String,System.Int32,System.Boolean@)">
+ <summary>Average of the learner's marks for exams of a given national assessment type.</summary>
+</member>
+<member name="M:SchoolMS.CbcHelper.SbaAverage(System.Int32,System.Int32,System.Boolean@)">
+ <summary>Average of the Grade 7 and Grade 8 school-based assessment scores.</summary>
+</member>
+<member name="M:SchoolMS.CbcHelper.GradeNumberForClass(System.Int32)">
+ <summary>Converts a class (Playgroup..Grade 12) to its CBC grade number, or 0.</summary>
+</member>
+<member name="M:SchoolMS.CbcHelper.SaveSba(System.Int32,System.Int32,System.Int32,System.Double,System.String)">
+ <summary>Records or replaces one SBA aggregate score.</summary>
+</member>
+<member name="T:SchoolMS.StudentSubjectHelper">
+ <summary>Handles each learner's individual subject enrolment for a school year.</summary>
+</member>
+<member name="M:SchoolMS.StudentSubjectHelper.LevelForClass(System.String)">
+ <summary>Maps a class name to a 0-based CBC level (Playgroup = 0, Grade 12 = 14).</summary>
+</member>
+<member name="M:SchoolMS.StudentSubjectHelper.AppliesToLevel(System.String,System.Int32)">
+ <summary>True when the subject's Levels text covers the supplied CBC level.</summary>
+</member>
+<member name="M:SchoolMS.StudentSubjectHelper.AvailableSubjects(System.Int32)">
+ <summary>Subjects that can be offered to a class, ordered Core first then by name.</summary>
+</member>
+<member name="M:SchoolMS.StudentSubjectHelper.SaveSelection(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{System.Int32})">
+ <summary>Replaces a learner's whole subject selection for one year in a single transaction.</summary>
+</member>
+<member name="T:SchoolMS.MasterGrid">
+ <summary>
+ Reusable master-data page: title, search, add/edit/delete, grid.
+ The first column of the supplied SQL must be the primary key; it is hidden.
+ </summary>
+</member>
+<member name="M:SchoolMS.frmMain.SubMenu(System.Windows.Forms.ToolStripMenuItem,System.String)">
+ <summary>Adds an empty sub-menu (drop-down) under a top-level item.</summary>
+</member>
+<member name="M:SchoolMS.frmMain.OpenGrid(SchoolMS.GridPageSpec)">
+ <summary>Opens one of the spec-driven CRUD pages (finance master data).</summary>
+</member>
+<member name="M:SchoolMS.frmMain.OpenIpsas(System.Int32)">
+ <summary>Opens the IPSAS report page for the given section (-1 = full report).</summary>
+</member>
+<member name="M:SchoolMS.frmMain.OpenReport(SchoolMS.ReportSpec)">
+ <summary>Opens one of the spec-driven report pages (fees / financial reports).</summary>
+</member>
+<member name="T:SchoolMS.GridPageSpec">
+ <summary>
+ Describes one spec-driven CRUD page hosted by <see cref="T:SchoolMS.frmGridPage"/>.
+ The first column of Sql must be the primary key; it is hidden by MasterGrid.
+ </summary>
+</member>
+<member name="F:SchoolMS.GridPageSpec.DeriveClassFromStudent">
+ <summary>When set, ClassId is copied from the selected student before saving.</summary>
+</member>
+<member name="F:SchoolMS.GridPageSpec.BeforeSave">
+ <summary>Optional hook that runs after the field values are collected.</summary>
+</member>
+<member name="F:SchoolMS.GridPageSpec.AfterConfigure">
+ <summary>Optional hook that runs right after Configure(), e.g. to force a reload.</summary>
+</member>
+<member name="T:SchoolMS.frmGridPage">
+ <summary>
+ A reusable page that hosts a single MasterGrid built from a GridPageSpec.
+ Used for all of the finance master-data screens so the menu can open any
+ of them without needing its own Designer file.
+ </summary>
+</member>
+<member name="M:SchoolMS.frmGridPage.LoadSpec(SchoolMS.GridPageSpec)">
+ <summary>Applies the spec and loads the grid. Call before the form is shown.</summary>
+</member>
+<member name="T:SchoolMS.ReportFilters">
+ <summary>
+ The filter values picked on a <see cref="T:SchoolMS.frmReportPage"/>. Each helper returns a
+ ready-to-append SQL fragment (always starting with " AND ") or an empty string
+ when that filter is not in use, so report SQL stays readable and injection-safe.
+ </summary>
+</member>
+<member name="M:SchoolMS.ReportFilters.SearchCond(System.String[])">
+ <summary>ORs the search term across the supplied columns.</summary>
+</member>
+<member name="M:SchoolMS.ReportFilters.Describe(System.String,System.String)">
+ <summary>Human readable summary of the active filters, for print subtitles.</summary>
+</member>
+<member name="T:SchoolMS.ReportSpec">
+ <summary>Describes one report page hosted by <see cref="T:SchoolMS.frmReportPage"/>.</summary>
+</member>
+<member name="F:SchoolMS.ReportSpec.PostLoad">
+ <summary>Optional post-processing, e.g. running balances.</summary>
+</member>
+<member name="T:SchoolMS.frmReportPage">
+ <summary>
+ Generic report page: filter bar (class / term / year / dates / account / search),
+ a results grid, and Preview, Print and Export buttons.
+ </summary>
+</member>
+<member name="M:SchoolMS.frmReportPage.LoadSpec(SchoolMS.ReportSpec)">
+ <summary>Applies the spec, fills the filter controls and runs the report.</summary>
+</member>
+<member name="M:SchoolMS.frmReportPage.QuickRange(System.String)">
+ <summary>Sets the date filters to a single day, the current week or the current month.</summary>
+</member>
+<member name="M:SchoolMS.frmReportPage.Place(System.Windows.Forms.Label,System.Windows.Forms.Control,System.Int32,System.Int32,System.Int32)">
+ <summary>Positions a label + control pair and returns the next free x.</summary>
+</member>
+<member name="M:SchoolMS.frmReportPage.SummarizeTotals(System.Data.DataTable)">
+ <summary>Totals the money-looking columns so the status bar mirrors the online reports.</summary>
+</member>
+<member name="T:SchoolMS.frmReceiveFees">
+ <summary>
+ "Receive Fees By ADM And Year" - look a pupil up by admission number and year,
+ show the fee ledger, then take a payment and issue a receipt number.
+ </summary>
+</member>
+<member name="T:SchoolMS.frmVoucherEntry">
+ <summary>
+ Shared screen behind "New Deposit" and "New Expense": picks a voucher head,
+ allocates it to an account, numbers it from the serial table and posts it.
+ </summary>
+</member>
+<member name="M:SchoolMS.frmVoucherEntry.#ctor">
+ <summary>Parameterless ctor so OpenPage(Of T) can build the deposit screen.</summary>
+</member>
+<member name="M:SchoolMS.frmVoucherEntry.NextVoucherNo">
+ <summary>Returns the next voucher number without consuming the serial.</summary>
+</member>
+<member name="M:SchoolMS.frmVoucherEntry.AdvanceSerial(System.String)">
+ <summary>Bumps the serial after a successful save.</summary>
+</member>
+<member name="T:SchoolMS.frmNewDeposit">
+ <summary>Menu entry point for "New Deposit".</summary>
+</member>
+<member name="T:SchoolMS.frmNewExpense">
+ <summary>Menu entry point for "New Expense".</summary>
+</member>
+<member name="T:SchoolMS.frmMinistryPrintouts">
+ <summary>
+ Ministry Printouts - statutory returns and registers the school must be able
+ to produce on demand (enrolment, staffing, fee structure, receipts register).
+ </summary>
+</member>
+<member name="M:SchoolMS.frmMinistryPrintouts.UpdateAvailability">
+ <summary>Only enrolment and class lists take a class filter.</summary>
+</member>
+<member name="T:SchoolMS.frmHandover">
+ <summary>
+ Handing / Taking Over Report - records the cash handover between two members
+ of staff and prints the signed certificate.
+ </summary>
+</member>
+<member name="T:SchoolMS.frmModuleChooser">
+ <summary>
+ Fancy module chooser shown after sign-in. Lets the user pick Exams, Finance or Admin;
+ the shell then only shows menus belonging to that module.
+ </summary>
+</member>
+<member name="T:SchoolMS.frmCashSurvey">
+ <summary>
+ Cash Survey Certificate - an independent count of cash on hand, used to
+ certify that the books agree with the cash actually present.
+ </summary>
+</member>
+<member name="T:SchoolMS.frmIpsas">
+ <summary>
+ IPSAS reporting pages (13 sections + dashboard + full report).
+ Each instance renders one section; the "Full Report" button concatenates all.
+ </summary>
+</member>
+<member name="T:SchoolMS.frmFinalAccountsFull">
+ <summary>
+ Full Final Accounts document (multi-account), mirroring the
+ "final accounts ... tuition account" template: header, income and expenditure
+ per account, balance sheet, notes and signatures, all from live data.
+ </summary>
+</member>
+</members>
+</doc>
