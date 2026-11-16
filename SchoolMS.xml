@@ -195,6 +195,14 @@ SchoolMS
  repeated slanted school-name/address watermark, enlarged fonts, and A5 portrait layout.
  </summary>
 </member>
+<member name="T:SchoolMS.DailyCollectionPrinter">
+ <summary>
+ Renders a daily collection report page in the same fancy house style as the
+ fee receipt, payment voucher, and fee statement: green/gold double frame,
+ school crest, repeated slanted school-name/address watermark, enlarged fonts,
+ and A5 portrait layout.
+ </summary>
+</member>
 <member name="T:SchoolMS.PrintHelper">
  <summary>
  Shared print engine: branded letterhead, tables, text reports, pagination and previews.
