@@ -149,15 +149,9 @@ SchoolMS
 </member>
 <member name="T:SchoolMS.AppUpdater">
  <summary>
- Lightweight self-updater driven by version.txt on GitHub Releases.
- Compares local version.txt with online version.txt, downloads from releases.
+ Lightweight self-updater driven by version.txt on GitHub.
+ Compares local version.txt with online version.txt, downloads all files except .db.
  </summary>
-</member>
-<member name="M:SchoolMS.AppUpdater.GetLocalVersion">
- <summary>Reads version from local version.txt file</summary>
-</member>
-<member name="M:SchoolMS.AppUpdater.GetOnlineVersion">
- <summary>Reads version from online version.txt on GitHub</summary>
 </member>
 <member name="T:SchoolMS.CbcHelper">
  <summary>
