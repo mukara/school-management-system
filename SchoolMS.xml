@@ -156,6 +156,19 @@ SchoolMS
 <member name="M:SchoolMS.Branding.BuildKey(System.String)">
  <summary>MD5(password) doubled into a 32-byte AES key - the old scheme.</summary>
 </member>
+<member name="T:SchoolMS.ReceiptLine">
+ <summary>One votehead line on a fee receipt.</summary>
+</member>
+<member name="T:SchoolMS.ReceiptData">
+ <summary>Everything needed to print one SCHOOL FUND RECEIPT.</summary>
+</member>
+<member name="T:SchoolMS.ReceiptPrinter">
+ <summary>
+ Draws the fee receipt in the same shape as the old Excel template:
+ school header + crest, SCHOOL FUND RECEIPT, REC NO / DATE / ADM NO / CLASS / NAME,
+ amount in words, numbered votehead table with KSH and CT, total, method, served by, balance.
+ </summary>
+</member>
 <member name="T:SchoolMS.PrintHelper">
  <summary>
  Shared print engine: branded letterhead, tables, text reports, pagination and previews.
@@ -350,9 +363,19 @@ SchoolMS
 </member>
 <member name="T:SchoolMS.frmReceiveFees">
  <summary>
- "Receive Fees By ADM And Year" - look a pupil up by admission number and year,
- show the fee ledger, then take a payment and issue a receipt number.
+ "Receive Fees By ADM And Year" - look a pupil up by admission number,
+ show the votehead ledger, split the money received across voteheads,
+ then complete the payment and print a SCHOOL FUND RECEIPT.
  </summary>
+</member>
+<member name="T:SchoolMS.frmReceiveFees.VoteRow">
+ <summary>One votehead line shown in the grid.</summary>
+</member>
+<member name="M:SchoolMS.frmReceiveFees.CleanVoteHead(System.String)">
+ <summary>Turns "PP1 Term 1 2027 Fees" into a readable votehead name.</summary>
+</member>
+<member name="T:SchoolMS.StudentPickerDialog">
+ <summary>Pick a pupil from a searchable class list.</summary>
 </member>
 <member name="T:SchoolMS.frmVoucherEntry">
  <summary>
