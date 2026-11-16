@@ -1,0 +1,521 @@
+# KEMIS 2026 Senior School Subject Combinations
+# Format: Code|Subject 1|Subject 2|Subject 3|Track|Pathway
+# ---------------------------------------------------------------------
+# STEM PATHWAY - APPLIED SCIENCES
+ST2007|Business Studies|Computer Studies|Physics|Applied Sciences|STEM
+ST2045|Agriculture|Building & Construction|Business Studies|Applied Sciences|STEM
+ST2070|Agriculture|Aviation|Geography|Applied Sciences|STEM
+ST2067|Agriculture|Computer Studies|Physics|Applied Sciences|STEM
+ST2075|Agriculture|Geography|Physics|Applied Sciences|STEM
+ST2019|Computer Studies|Home Science|Wood Work|Applied Sciences|STEM
+ST2048|Agriculture|Business Studies|Electricity|Applied Sciences|STEM
+ST2049|Agriculture|Business Studies|General Science|Applied Sciences|STEM
+ST2058|Agriculture|Building & Construction|Computer Studies|Applied Sciences|STEM
+ST2097|Biology|Business Studies|Computer Studies|Applied Sciences|STEM
+ST2056|Agriculture|Aviation|Computer Studies|Applied Sciences|STEM
+ST2096|Aviation|Business Studies|Computer Studies|Applied Sciences|STEM
+ST2059|Agriculture|Chemistry|Computer Studies|Applied Sciences|STEM
+ST2020|Aviation|Computer Studies|Home Science|Applied Sciences|STEM
+ST2092|Agriculture|Home Science|Metal Work|Applied Sciences|STEM
+ST2017|Computer Studies|Geography|Metal Work|Applied Sciences|STEM
+ST2083|Agriculture|Building & Construction|Home Science|Applied Sciences|STEM
+ST2090|Agriculture|Home Science|Marine & Fisheries|Applied Sciences|STEM
+ST2024|Chemistry|Computer Studies|Home Science|Applied Sciences|STEM
+ST2095|Agriculture|Home Science|Wood Work|Applied Sciences|STEM
+ST2060|Agriculture|Computer Studies|Electricity|Applied Sciences|STEM
+ST2009|Business Studies|Computer Studies|Wood Work|Applied Sciences|STEM
+ST2047|Agriculture|Business Studies|Computer Studies|Applied Sciences|STEM
+ST2098|Building & Construction|Business Studies|Computer Studies|Applied Sciences|STEM
+ST2043|Agriculture|Aviation|Business Studies|Applied Sciences|STEM
+ST2028|Computer Studies|Home Science|Marine & Fisheries|Applied Sciences|STEM
+ST2078|Agriculture|Geography|Wood Work|Applied Sciences|STEM
+ST2010|Aviation|Computer Studies|Geography|Applied Sciences|STEM
+ST2055|Agriculture|Business Studies|Wood Work|Applied Sciences|STEM
+ST2001|Business Studies|Computer Studies|Electricity|Applied Sciences|STEM
+ST2025|Computer Studies|Electricity|Home Science|Applied Sciences|STEM
+ST2093|Agriculture|Home Science|Physics|Applied Sciences|STEM
+ST2069|Agriculture|Computer Studies|Wood Work|Applied Sciences|STEM
+ST2076|Agriculture|Geography|Power Mechanics|Applied Sciences|STEM
+ST2053|Agriculture|Business Studies|Physics|Applied Sciences|STEM
+ST2063|Agriculture|Computer Studies|Home Science|Applied Sciences|STEM
+ST2004|Business Studies|Computer Studies|Marine & Fisheries|Applied Sciences|STEM
+ST2085|Agriculture|Business Studies|Home Science|Applied Sciences|STEM
+ST2030|Computer Studies|Home Science|Metal Work|Applied Sciences|STEM
+ST2046|Agriculture|Business Studies|Chemistry|Applied Sciences|STEM
+ST2051|Agriculture|Business Studies|Marine & Fisheries|Applied Sciences|STEM
+ST2087|Agriculture|Electricity|Home Science|Applied Sciences|STEM
+ST2015|Computer Studies|Geography|Marine & Fisheries|Applied Sciences|STEM
+ST2081|Agriculture|Biology|Home Science|Applied Sciences|STEM
+ST2066|Agriculture|Computer Studies|Metal Work|Applied Sciences|STEM
+ST2014|Computer Studies|General Science|Geography|Applied Sciences|STEM
+ST2011|Biology|Computer Studies|Geography|Applied Sciences|STEM
+ST2052|Agriculture|Business Studies|Metal Work|Applied Sciences|STEM
+ST2086|Agriculture|Chemistry|Home Science|Applied Sciences|STEM
+ST2089|Agriculture|Geography|Home Science|Applied Sciences|STEM
+ST2065|Core Mathematics|Agriculture|Computer Studies|Applied Sciences|STEM
+ST2038|Core Mathematics|Biology|Computer Studies|Applied Sciences|STEM
+ST2018|Computer Studies|Geography|Physics|Applied Sciences|STEM
+ST2064|Agriculture|Computer Studies|Marine & Fisheries|Applied Sciences|STEM
+ST2071|Agriculture|Biology|Geography|Applied Sciences|STEM
+ST2012|Building & Construction|Computer Studies|Geography|Applied Sciences|STEM
+ST2062|Agriculture|Computer Studies|Geography|Applied Sciences|STEM
+ST2080|Agriculture|Electricity|Geography|Applied Sciences|STEM
+ST2039|Core Mathematics|Biology|Electricity|Applied Sciences|STEM
+ST2023|Business Studies|Computer Studies|Home Science|Applied Sciences|STEM
+ST2006|Business Studies|Computer Studies|Metal Work|Applied Sciences|STEM
+ST2094|Agriculture|Home Science|Power Mechanics|Applied Sciences|STEM
+ST2016|Core Mathematics|Computer Studies|Geography|Applied Sciences|STEM
+ST2031|Computer Studies|Home Science|Physics|Applied Sciences|STEM
+ST2013|Chemistry|Computer Studies|Geography|Applied Sciences|STEM
+ST2084|Agriculture|Geography|Marine & Fisheries|Applied Sciences|STEM
+ST2088|Agriculture|General Science|Home Science|Applied Sciences|STEM
+ST2002|Business Studies|Computer Studies|General Science|Applied Sciences|STEM
+ST2032|Computer Studies|Home Science|Power Mechanics|Applied Sciences|STEM
+ST2054|Agriculture|Business Studies|Power Mechanics|Applied Sciences|STEM
+ST2079|Agriculture|Aviation|Home Science|Applied Sciences|STEM
+ST2044|Agriculture|Biology|Business Studies|Applied Sciences|STEM
+ST2003|Business Studies|Computer Studies|Geography|Applied Sciences|STEM
+ST2041|Core Mathematics|Biology|Home Science|Applied Sciences|STEM
+ST2057|Agriculture|Biology|Computer Studies|Applied Sciences|STEM
+ST2082|Agriculture|General Science|Geography|Applied Sciences|STEM
+ST2068|Agriculture|Computer Studies|Power Mechanics|Applied Sciences|STEM
+ST2074|Agriculture|Building & Construction|Geography|Applied Sciences|STEM
+ST2073|Agriculture|Geography|Metal Work|Applied Sciences|STEM
+ST2050|Agriculture|Business Studies|Geography|Applied Sciences|STEM
+ST2061|Agriculture|Computer Studies|General Science|Applied Sciences|STEM
+ST2027|Computer Studies|Geography|Home Science|Applied Sciences|STEM
+ST2022|Building & Construction|Computer Studies|Home Science|Applied Sciences|STEM
+ST2072|Core Mathematics|Agriculture|Geography|Applied Sciences|STEM
+ST2099|Business Studies|Chemistry|Computer Studies|Applied Sciences|STEM
+ST2026|Computer Studies|General Science|Home Science|Applied Sciences|STEM
+# STEM PATHWAY - TECHNICAL STUDIES
+ST3050|General Science|Marine & Fisheries|Media Technology|Technical Studies|STEM
+ST3121|Aviation|Geography|Physics|Technical Studies|STEM
+ST3074|Computer Studies|General Science|Media Technology|Technical Studies|STEM
+ST3084|Biology|Business Studies|Metal Work|Technical Studies|STEM
+ST3105|Geography|Metal Work|Physics|Technical Studies|STEM
+ST3013|Biology|Geography|Power Mechanics|Technical Studies|STEM
+ST3008|Electricity|General Science|Home Science|Technical Studies|STEM
+ST3118|General Science|Marine & Fisheries|Power Mechanics|Technical Studies|STEM
+ST3015|Chemistry|Geography|Power Mechanics|Technical Studies|STEM
+ST3068|Business Studies|Geography|Media Technology|Technical Studies|STEM
+ST3065|Biology|Business Studies|Media Technology|Technical Studies|STEM
+ST3089|Business Studies|Marine & Fisheries|Metal Work|Technical Studies|STEM
+ST3120|Aviation|Geography|Media Technology|Technical Studies|STEM
+ST3091|Business Studies|Media Technology|Metal Work|Technical Studies|STEM
+ST3011|General Science|Media Technology|Power Mechanics|Technical Studies|STEM
+ST3044|Computer Studies|General Science|Marine & Fisheries|Technical Studies|STEM
+ST3024|Core Mathematics|Electricity|Geography|Technical Studies|STEM
+ST3054|Chemistry|Geography|Marine & Fisheries|Technical Studies|STEM
+ST3022|Electricity|Geography|Marine & Fisheries|Technical Studies|STEM
+ST3053|General Science|Media Technology|Wood Work|Technical Studies|STEM
+ST3006|Computer Studies|Electricity|Geography|Technical Studies|STEM
+ST3082|Geography|Media Technology|Physics|Technical Studies|STEM
+ST3038|Business Studies|Physics|Wood Work|Technical Studies|STEM
+ST3107|Business Studies|Chemistry|Power Mechanics|Technical Studies|STEM
+ST3085|Business Studies|Chemistry|Metal Work|Technical Studies|STEM
+ST3018|Geography|Home Science|Power Mechanics|Technical Studies|STEM
+ST3034|Business Studies|Home Science|Wood Work|Technical Studies|STEM
+ST3103|Core Mathematics|Geography|Metal Work|Technical Studies|STEM
+ST3079|Computer Studies|Geography|Media Technology|Technical Studies|STEM
+ST3099|Chemistry|Geography|Metal Work|Technical Studies|STEM
+ST3017|Chemistry|Electricity|Geography|Technical Studies|STEM
+ST3060|Geography|Home Science|Wood Work|Technical Studies|STEM
+ST3014|Biology|Electricity|Geography|Technical Studies|STEM
+ST3086|Business Studies|General Science|Metal Work|Technical Studies|STEM
+ST3016|Computer Studies|Geography|Power Mechanics|Technical Studies|STEM
+ST3083|Aviation|Business Studies|Metal Work|Technical Studies|STEM
+ST3046|General Science|Geography|Wood Work|Technical Studies|STEM
+ST3097|General Science|Media Technology|Metal Work|Technical Studies|STEM
+ST3032|Business Studies|Geography|Wood Work|Technical Studies|STEM
+ST3061|Geography|Marine & Fisheries|Media Technology|Technical Studies|STEM
+ST3104|Geography|Media Technology|Metal Work|Technical Studies|STEM
+ST3027|Biology|Business Studies|Wood Work|Technical Studies|STEM
+ST3051|Core Mathematics|General Science|Wood Work|Technical Studies|STEM
+ST3035|Business Studies|Marine & Fisheries|Wood Work|Technical Studies|STEM
+ST3090|Core Mathematics|Business Studies|Metal Work|Technical Studies|STEM
+ST3040|Core Mathematics|Business Studies|Marine & Fisheries|Technical Studies|STEM
+ST3071|Geography|Physics|Wood Work|Technical Studies|STEM
+ST3059|Core Mathematics|Geography|Marine & Fisheries|Technical Studies|STEM
+ST3073|Business Studies|Media Technology|Physics|Technical Studies|STEM
+ST3031|Business Studies|General Science|Wood Work|Technical Studies|STEM
+ST3029|Business Studies|Chemistry|Wood Work|Technical Studies|STEM
+ST3062|Geography|Marine & Fisheries|Physics|Technical Studies|STEM
+ST3113|Core Mathematics|Business Studies|Power Mechanics|Technical Studies|STEM
+ST3095|General Science|Marine & Fisheries|Metal Work|Technical Studies|STEM
+ST3066|Business Studies|Chemistry|Media Technology|Technical Studies|STEM
+ST3096|Core Mathematics|General Science|Metal Work|Technical Studies|STEM
+ST3043|Computer Studies|General Science|Wood Work|Technical Studies|STEM
+ST3023|Geography|Physics|Power Mechanics|Technical Studies|STEM
+ST3078|Chemistry|Geography|Media Technology|Technical Studies|STEM
+ST3055|Biology|Geography|Wood Work|Technical Studies|STEM
+ST3094|General Science|Home Science|Metal Work|Technical Studies|STEM
+ST3067|Business Studies|Computer Studies|Media Technology|Technical Studies|STEM
+ST3020|Core Mathematics|Geography|Power Mechanics|Technical Studies|STEM
+ST3042|Business Studies|Marine & Fisheries|Physics|Technical Studies|STEM
+ST3115|Business Studies|Physics|Power Mechanics|Technical Studies|STEM
+ST3117|General Science|Home Science|Power Mechanics|Technical Studies|STEM
+ST3114|Business Studies|Media Technology|Power Mechanics|Technical Studies|STEM
+ST3110|Business Studies|Geography|Power Mechanics|Technical Studies|STEM
+ST3063|Geography|Marine & Fisheries|Wood Work|Technical Studies|STEM
+ST3033|Business Studies|General Science|Marine & Fisheries|Technical Studies|STEM
+ST3010|Core Mathematics|Electricity|General Science|Technical Studies|STEM
+ST3026|Electricity|Geography|Physics|Technical Studies|STEM
+ST3109|Business Studies|General Science|Power Mechanics|Technical Studies|STEM
+ST3045|General Science|Home Science|Marine & Fisheries|Technical Studies|STEM
+ST3075|General Science|Home Science|Media Technology|Technical Studies|STEM
+ST3106|Biology|Business Studies|Power Mechanics|Technical Studies|STEM
+ST3101|Geography|Home Science|Metal Work|Technical Studies|STEM
+ST3007|Electricity|Geography|Home Science|Technical Studies|STEM
+ST3056|Chemistry|Geography|Wood Work|Technical Studies|STEM
+ST3009|Electricity|General Science|Marine & Fisheries|Technical Studies|STEM
+ST3080|Geography|Home Science|Media Technology|Technical Studies|STEM
+ST3057|Computer Studies|Geography|Wood Work|Technical Studies|STEM
+ST3112|Business Studies|Marine & Fisheries|Power Mechanics|Technical Studies|STEM
+ST3021|Geography|Media Technology|Power Mechanics|Technical Studies|STEM
+ST3058|Geography|Home Science|Marine & Fisheries|Technical Studies|STEM
+ST3108|Business Studies|Computer Studies|Power Mechanics|Technical Studies|STEM
+ST3048|General Science|Home Science|Wood Work|Technical Studies|STEM
+ST3064|Core Mathematics|Geography|Wood Work|Technical Studies|STEM
+ST3019|Geography|Marine & Fisheries|Power Mechanics|Technical Studies|STEM
+ST3098|Biology|Geography|Metal Work|Technical Studies|STEM
+ST3049|General Science|Marine & Fisheries|Wood Work|Technical Studies|STEM
+ST3092|Business Studies|Metal Work|Physics|Technical Studies|STEM
+ST3025|Electricity|Geography|Media Technology|Technical Studies|STEM
+ST3087|Business Studies|Geography|Metal Work|Technical Studies|STEM
+ST3088|Business Studies|Home Science|Metal Work|Technical Studies|STEM
+ST3041|Business Studies|Marine & Fisheries|Media Technology|Technical Studies|STEM
+ST3102|Geography|Marine & Fisheries|Metal Work|Technical Studies|STEM
+ST3072|Core Mathematics|Business Studies|Media Technology|Technical Studies|STEM
+ST3100|General Science|Geography|Metal Work|Technical Studies|STEM
+ST3037|Business Studies|Geography|Marine & Fisheries|Technical Studies|STEM
+ST3030|Business Studies|Chemistry|Marine & Fisheries|Technical Studies|STEM
+ST3076|Core Mathematics|General Science|Media Technology|Technical Studies|STEM
+ST3077|Biology|Geography|Media Technology|Technical Studies|STEM
+ST3036|Core Mathematics|Business Studies|Wood Work|Technical Studies|STEM
+ST3039|Business Studies|Home Science|Marine & Fisheries|Technical Studies|STEM
+ST3119|Core Mathematics|General Science|Power Mechanics|Technical Studies|STEM
+ST3111|Business Studies|Home Science|Power Mechanics|Technical Studies|STEM
+ST3069|Geography|Media Technology|Wood Work|Technical Studies|STEM
+ST3116|Computer Studies|General Science|Power Mechanics|Technical Studies|STEM
+ST3012|Electricity|General Science|Media Technology|Technical Studies|STEM
+ST3070|Business Studies|Home Science|Media Technology|Technical Studies|STEM
+ST3093|Computer Studies|General Science|Metal Work|Technical Studies|STEM
+ST3028|Biology|Business Studies|Marine & Fisheries|Technical Studies|STEM
+ST3052|Biology|Geography|Marine & Fisheries|Technical Studies|STEM
+# STEM PATHWAY - PURE SCIENCES
+ST1044|Biology|Building & Construction|Chemistry|Pure Sciences|STEM
+ST1042|Agriculture|Biology|Chemistry|Pure Sciences|STEM
+ST1043|Aviation|Biology|Chemistry|Pure Sciences|STEM
+ST1023|Core Mathematics|Agriculture|General Science|Pure Sciences|STEM
+ST1033|Core Mathematics|Business Studies|Physics|Pure Sciences|STEM
+ST1010|Core Mathematics|Agriculture|Chemistry|Pure Sciences|STEM
+ST1006|Core Mathematics|Biology|Metal Work|Pure Sciences|STEM
+ST1011|Core Mathematics|Aviation|Chemistry|Pure Sciences|STEM
+ST1004|Core Mathematics|Biology|Chemistry|Pure Sciences|STEM
+ST1038|Core Mathematics|Marine & Fisheries|Physics|Pure Sciences|STEM
+ST1041|Core Mathematics|Physics|Wood Work|Pure Sciences|STEM
+ST1031|Core Mathematics|Aviation|Physics|Pure Sciences|STEM
+ST1047|Core Mathematics|Biology|Marine & Fisheries|Pure Sciences|STEM
+ST1009|Core Mathematics|Biology|Wood Work|Pure Sciences|STEM
+ST1028|Core Mathematics|General Science|Geography|Pure Sciences|STEM
+ST1030|Core Mathematics|Agriculture|Physics|Pure Sciences|STEM
+ST1045|Biology|Business Studies|Chemistry|Pure Sciences|STEM
+ST1012|Core Mathematics|Building & Construction|Chemistry|Pure Sciences|STEM
+ST1014|Core Mathematics|Chemistry|Computer Studies|Pure Sciences|STEM
+ST1002|Core Mathematics|Aviation|Biology|Pure Sciences|STEM
+ST1001|Core Mathematics|Agriculture|Biology|Pure Sciences|STEM
+ST1021|Core Mathematics|Chemistry|Power Mechanics|Pure Sciences|STEM
+ST1046|Biology|Chemistry|Computer Studies|Pure Sciences|STEM
+ST1019|Core Mathematics|Chemistry|Metal Work|Pure Sciences|STEM
+ST1040|Core Mathematics|Physics|Power Mechanics|Pure Sciences|STEM
+ST1032|Core Mathematics|Building & Construction|Physics|Pure Sciences|STEM
+ST1048|Biology|Chemistry|Physics|Pure Sciences|STEM
+ST1013|Core Mathematics|Business Studies|Chemistry|Pure Sciences|STEM
+ST1036|Core Mathematics|Geography|Physics|Pure Sciences|STEM
+ST1017|Core Mathematics|Chemistry|Home Science|Pure Sciences|STEM
+ST1037|Core Mathematics|Home Science|Physics|Pure Sciences|STEM
+ST1029|Core Mathematics|General Science|Home Science|Pure Sciences|STEM
+ST1027|Core Mathematics|Computer Studies|General Science|Pure Sciences|STEM
+ST1025|Core Mathematics|Building & Construction|General Science|Pure Sciences|STEM
+ST1020|Core Mathematics|Chemistry|Physics|Pure Sciences|STEM
+ST1003|Core Mathematics|Biology|Business Studies|Pure Sciences|STEM
+# SOCIAL SCIENCES PATHWAY - LANGUAGES & LITERATURE
+SS1006|Arabic|Computer Studies|French|Languages & Literature|Social Sciences
+SS1040|Computer Studies|Fasihi ya Kiswahili|Indigenous Language|Languages & Literature|Social Sciences
+SS1060|General Science|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1059|Arabic|Christian Religious Education|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1037|Fasihi ya Kiswahili|General Science|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1014|Arabic|French|General Science|Languages & Literature|Social Sciences
+SS1065|German|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1001|French|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1002|Fasihi ya Kiswahili|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1058|Arabic|Computer Studies|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1043|Arabic|Fasihi ya Kiswahili|Indigenous Language|Languages & Literature|Social Sciences
+SS1011|Arabic|French|Hindu Religious Education|Languages & Literature|Social Sciences
+SS1018|Fasihi ya Kiswahili|Indigenous Language|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1029|Fasihi ya Kiswahili|General Science|Indigenous Language|Languages & Literature|Social Sciences
+SS1050|French|German|Islamic Religious Education|Languages & Literature|Social Sciences
+SS1064|Arabic|French|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1033|Fasihi ya Kiswahili|Hindu Religious Education|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1025|Fasihi ya Kiswahili|German|Indigenous Language|Languages & Literature|Social Sciences
+SS1036|Fasihi ya Kiswahili|Hindu Religious Education|Indigenous Language|Languages & Literature|Social Sciences
+SS1022|Fasihi ya Kiswahili|Indigenous Language|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1020|Core Mathematics|Fasihi ya Kiswahili|Indigenous Language|Languages & Literature|Social Sciences
+SS1055|French|Geography|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1007|Indigenous Language|Islamic Religious Education|Literature in English|Languages & Literature|Social Sciences
+SS1026|Fasihi ya Kiswahili|Kenya Sign Language|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1069|Core Mathematics|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1031|Fasihi ya Kiswahili|Islamic Religious Education|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1077|Christian Religious Education|French|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1057|Arabic|Business Studies|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1046|Core Mathematics|French|German|Languages & Literature|Social Sciences
+SS1023|Business Studies|Fasihi ya Kiswahili|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1080|Business Studies|Fasihi ya Kiswahili|Literature in English|Languages & Literature|Social Sciences
+SS1038|Fasihi ya Kiswahili|Indigenous Language|Islamic Religious Education|Languages & Literature|Social Sciences
+SS1051|French|Geography|German|Languages & Literature|Social Sciences
+SS1030|Christian Religious Education|Fasihi ya Kiswahili|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1068|Indigenous Language|Literature in English|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1070|Arabic|Geography|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1041|Fasihi ya Kiswahili|History & Citizenship|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1039|Fasihi ya Kiswahili|Geography|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1079|French|Hindu Religious Education|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1049|French|German|History & Citizenship|Languages & Literature|Social Sciences
+SS1047|Computer Studies|French|German|Languages & Literature|Social Sciences
+SS1067|History & Citizenship|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1009|Arabic|French|Islamic Religious Education|Languages & Literature|Social Sciences
+SS1078|French|Islamic Religious Education|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1034|Christian Religious Education|Fasihi ya Kiswahili|Indigenous Language|Languages & Literature|Social Sciences
+SS1071|Indigenous Language|Kenya Sign Language|Literature in English|Languages & Literature|Social Sciences
+SS1017|Arabic|French|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1075|Business Studies|French|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1052|French|German|Hindu Religious Education|Languages & Literature|Social Sciences
+SS1016|Arabic|French|History & Citizenship|Languages & Literature|Social Sciences
+SS1032|Fasihi ya Kiswahili|French|Indigenous Language|Languages & Literature|Social Sciences
+SS1005|Hindu Religious Education|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1082|Fasihi ya Kiswahili|Literature in English|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1062|Arabic|Islamic Religious Education|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1076|Computer Studies|French|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1066|Arabic|General Science|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1083|Fasihi ya Kiswahili|Kenya Sign Language|Literature in English|Languages & Literature|Social Sciences
+SS1045|Business Studies|French|German|Languages & Literature|Social Sciences
+SS1042|Business Studies|Fasihi ya Kiswahili|Indigenous Language|Languages & Literature|Social Sciences
+SS1028|Computer Studies|Fasihi ya Kiswahili|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1024|Fasihi ya Kiswahili|History & Citizenship|Indigenous Language|Languages & Literature|Social Sciences
+SS1081|Fasihi ya Kiswahili|History & Citizenship|Literature in English|Languages & Literature|Social Sciences
+SS1056|French|History & Citizenship|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1072|Arabic|History & Citizenship|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1004|Arabic|Business Studies|French|Languages & Literature|Social Sciences
+SS1061|Geography|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1015|Arabic|French|Geography|Languages & Literature|Social Sciences
+SS1054|French|General Science|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1035|Fasihi ya Kiswahili|French|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1021|Arabic|Fasihi ya Kiswahili|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1012|Business Studies|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1063|Arabic|Hindu Religious Education|Kenya Sign Language|Languages & Literature|Social Sciences
+SS1053|French|General Science|German|Languages & Literature|Social Sciences
+SS1010|Computer Studies|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1048|Christian Religious Education|French|German|Languages & Literature|Social Sciences
+SS1027|Fasihi ya Kiswahili|Geography|Indigenous Language|Languages & Literature|Social Sciences
+SS1003|Christian Religious Education|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1073|Arabic|Kenya Sign Language|Mandarin Chinese|Languages & Literature|Social Sciences
+SS1013|Arabic|Indigenous Language|Literature in English|Languages & Literature|Social Sciences
+SS1008|Arabic|Christian Religious Education|French|Languages & Literature|Social Sciences
+# SOCIAL SCIENCES PATHWAY - HUMANITIES & BUSINESS STUDIES
+SS2033|Computer Studies|Geography|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2050|Christian Religious Education|Geography|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2019|Christian Religious Education|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2112|Business Studies|Christian Religious Education|French|Humanities & Business Studies|Social Sciences
+SS2099|Business Studies|German|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2061|Business Studies|Geography|Literature in English|Humanities & Business Studies|Social Sciences
+SS2118|Business Studies|Geography|Kenya Sign Language|Humanities & Business Studies|Social Sciences
+SS2002|Business Studies|German|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2041|General Science|Geography|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2024|Computer Studies|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2092|Geography|History & Citizenship|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2057|Arabic|Christian Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2004|Geography|History & Citizenship|Literature in English|Humanities & Business Studies|Social Sciences
+SS2065|Business Studies|Geography|Indigenous Language|Humanities & Business Studies|Social Sciences
+SS2003|Business Studies|German|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2100|Business Studies|History & Citizenship|Literature in English|Humanities & Business Studies|Social Sciences
+SS2042|General Science|Geography|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2110|Business Studies|Fasihi ya Kiswahili|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2115|Business Studies|Christian Religious Education|General Science|Humanities & Business Studies|Social Sciences
+SS2101|Business Studies|History & Citizenship|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2071|Fasihi ya Kiswahili|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2013|General Science|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2044|Geography|German|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2039|French|Geography|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2069|Christian Religious Education|Fasihi ya Kiswahili|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2064|Christian Religious Education|Computer Studies|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2086|Hindu Religious Education|History & Citizenship|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2018|Fasihi ya Kiswahili|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2109|Business Studies|Christian Religious Education|Fasihi ya Kiswahili|Humanities & Business Studies|Social Sciences
+SS2103|Arabic|Business Studies|Christian Religious Education|Humanities & Business Studies|Social Sciences
+SS2077|General Science|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2080|German|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2035|Christian Religious Education|Fasihi ya Kiswahili|Geography|Humanities & Business Studies|Social Sciences
+SS2094|Arabic|Business Studies|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2026|Arabic|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2087|History & Citizenship|Islamic Religious Education|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2097|Business Studies|French|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2083|History & Citizenship|Islamic Religious Education|Literature in English|Humanities & Business Studies|Social Sciences
+SS2116|Business Studies|General Science|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2062|Computer Studies|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2005|Business Studies|Christian Religious Education|German|Humanities & Business Studies|Social Sciences
+SS2012|Business Studies|Hindu Religious Education|Literature in English|Humanities & Business Studies|Social Sciences
+SS2117|Business Studies|General Science|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2052|Geography|Hindu Religious Education|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2098|Business Studies|General Science|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2010|Geography|German|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2074|French|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2029|Arabic|Christian Religious Education|Geography|Humanities & Business Studies|Social Sciences
+SS2047|Christian Religious Education|Geography|Literature in English|Humanities & Business Studies|Social Sciences
+SS2025|Business Studies|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2105|Arabic|Business Studies|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2031|Arabic|Geography|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2006|Business Studies|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2017|Business Studies|Christian Religious Education|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2076|Christian Religious Education|General Science|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2085|Hindu Religious Education|History & Citizenship|Literature in English|Humanities & Business Studies|Social Sciences
+SS2070|Fasihi ya Kiswahili|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2079|Christian Religious Education|German|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2032|Computer Studies|Geography|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2089|Core Mathematics|Christian Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2063|Computer Studies|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2093|Core Mathematics|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2008|Business Studies|Christian Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2038|French|Geography|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2009|Business Studies|Christian Religious Education|Literature in English|Humanities & Business Studies|Social Sciences
+SS2095|Business Studies|Computer Studies|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2106|Business Studies|Christian Religious Education|Computer Studies|Humanities & Business Studies|Social Sciences
+SS2046|Christian Religious Education|Geography|German|Humanities & Business Studies|Social Sciences
+SS2090|Core Mathematics|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2051|Geography|Islamic Religious Education|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2048|Geography|Islamic Religious Education|Literature in English|Humanities & Business Studies|Social Sciences
+SS2054|Core Mathematics|Geography|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2034|Christian Religious Education|Computer Studies|Geography|Humanities & Business Studies|Social Sciences
+SS2021|Core Mathematics|Business Studies|Christian Religious Education|Humanities & Business Studies|Social Sciences
+SS2088|Christian Religious Education|History & Citizenship|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2023|Core Mathematics|Business Studies|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2108|Business Studies|Computer Studies|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2058|Arabic|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2049|Geography|Hindu Religious Education|Literature in English|Humanities & Business Studies|Social Sciences
+SS2082|Christian Religious Education|History & Citizenship|Literature in English|Humanities & Business Studies|Social Sciences
+SS2113|Business Studies|French|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2068|Business Studies|French|Geography|Humanities & Business Studies|Social Sciences
+SS2081|German|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2059|Arabic|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2014|Business Studies|Hindu Religious Education|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2037|Fasihi ya Kiswahili|Geography|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2020|Geography|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2104|Arabic|Business Studies|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2030|Arabic|Geography|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2066|Business Studies|Geography|German|Humanities & Business Studies|Social Sciences
+SS2015|Business Studies|Islamic Religious Education|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2084|Arabic|Business Studies|Geography|Humanities & Business Studies|Social Sciences
+SS2011|Business Studies|Islamic Religious Education|Literature in English|Humanities & Business Studies|Social Sciences
+SS2022|Geography|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2040|Christian Religious Education|French|Geography|Humanities & Business Studies|Social Sciences
+SS2067|Business Studies|General Science|Geography|Humanities & Business Studies|Social Sciences
+SS2016|French|Geography|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2111|Business Studies|Fasihi ya Kiswahili|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2073|Business Studies|Fasihi ya Kiswahili|Geography|Humanities & Business Studies|Social Sciences
+SS2114|Business Studies|French|Hindu Religious Education|Humanities & Business Studies|Social Sciences
+SS2102|Core Mathematics|Business Studies|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2078|General Science|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2007|Business Studies|History & Citizenship|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2107|Business Studies|Computer Studies|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2043|Christian Religious Education|General Science|Geography|Humanities & Business Studies|Social Sciences
+SS2096|Business Studies|Fasihi ya Kiswahili|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2053|Core Mathematics|Christian Religious Education|Geography|Humanities & Business Studies|Social Sciences
+SS2060|Business Studies|Geography|Mandarin Chinese|Humanities & Business Studies|Social Sciences
+SS2001|Business Studies|Christian Religious Education|Geography|Humanities & Business Studies|Social Sciences
+SS2045|Geography|German|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2072|French|Hindu Religious Education|History & Citizenship|Humanities & Business Studies|Social Sciences
+SS2036|Fasihi ya Kiswahili|Geography|Islamic Religious Education|Humanities & Business Studies|Social Sciences
+SS2075|Christian Religious Education|French|History & Citizenship|Humanities & Business Studies|Social Sciences
+# ARTS & SPORTS PATHWAY - ARTS
+AS1021|Computer Studies|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+AS1049|Literature in English|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1027|Fine Arts|General Science|Music & Dance|Arts|Arts and Sports Science
+AS1038|Business Studies|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1007|Fine Arts|Hindu Religious Education|Theatre & Film|Arts|Arts and Sports Science
+AS1042|Hindu Religious Education|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1002|Biology|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1036|Arabic|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1005|Christian Religious Education|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1048|History & Citizenship|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1001|Arabic|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1012|Fine Arts|German|Theatre & Film|Arts|Arts and Sports Science
+AS1043|Fasihi ya Kiswahili|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1032|Fine Arts|Mandarin Chinese|Music & Dance|Arts|Arts and Sports Science
+AS1044|French|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1029|Fine Arts|German|Music & Dance|Arts|Arts and Sports Science
+AS1009|Fine Arts|French|Theatre & Film|Arts|Arts and Sports Science
+AS1022|Christian Religious Education|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+AS1019|Biology|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+AS1011|Fine Arts|Geography|Theatre & Film|Arts|Arts and Sports Science
+AS1030|Fine Arts|History & Citizenship|Music & Dance|Arts|Arts and Sports Science
+AS1039|Computer Studies|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1018|Arabic|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+AS1023|Fine Arts|Islamic Religious Education|Music & Dance|Arts|Arts and Sports Science
+AS1037|Biology|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1047|German|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1040|Christian Religious Education|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1024|Fine Arts|Hindu Religious Education|Music & Dance|Arts|Arts and Sports Science
+AS1050|Mandarin Chinese|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1015|Fine Arts|Mandarin Chinese|Theatre & Film|Arts|Arts and Sports Science
+AS1026|Fine Arts|French|Music & Dance|Arts|Arts and Sports Science
+AS1045|General Science|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1003|Business Studies|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1016|Core Mathematics|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1017|Fine Arts|Sports & Recreation|Theatre & Film|Arts|Arts and Sports Science
+AS1010|Fine Arts|General Science|Theatre & Film|Arts|Arts and Sports Science
+AS1046|Geography|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1028|Fine Arts|Geography|Music & Dance|Arts|Arts and Sports Science
+AS1051|Core Mathematics|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1052|Music & Dance|Sports & Recreation|Theatre & Film|Arts|Arts and Sports Science
+AS1008|Fasihi ya Kiswahili|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1020|Business Studies|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+AS1004|Computer Studies|Fine Arts|Theatre & Film|Arts|Arts and Sports Science
+AS1014|Fine Arts|Literature in English|Theatre & Film|Arts|Arts and Sports Science
+AS1041|Islamic Religious Education|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1013|Fine Arts|History & Citizenship|Theatre & Film|Arts|Arts and Sports Science
+AS1034|Fine Arts|Music & Dance|Sports & Recreation|Arts|Arts and Sports Science
+AS1035|Fine Arts|Music & Dance|Theatre & Film|Arts|Arts and Sports Science
+AS1006|Fine Arts|Islamic Religious Education|Theatre & Film|Arts|Arts and Sports Science
+AS1025|Fasihi ya Kiswahili|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+AS1031|Fine Arts|Literature in English|Music & Dance|Arts|Arts and Sports Science
+AS1033|Core Mathematics|Fine Arts|Music & Dance|Arts|Arts and Sports Science
+# ARTS & SPORTS PATHWAY - SPORTS
+AS2009|Biology|Geography|Sports & Recreation|Sports|Arts and Sports Science
+AS2006|Biology|Islamic Religious Education|Sports & Recreation|Sports|Arts and Sports Science
+AS2011|Biology|History & Citizenship|Sports & Recreation|Sports|Arts and Sports Science
+AS2027|General Science|Literature in English|Sports & Recreation|Sports|Arts and Sports Science
+AS2026|General Science|History & Citizenship|Sports & Recreation|Sports|Arts and Sports Science
+AS2013|Biology|Mandarin Chinese|Sports & Recreation|Sports|Arts and Sports Science
+AS2029|Core Mathematics|General Science|Sports & Recreation|Sports|Arts and Sports Science
+AS2003|Biology|Computer Studies|Sports & Recreation|Sports|Arts and Sports Science
+AS2021|General Science|Hindu Religious Education|Sports & Recreation|Sports|Arts and Sports Science
+AS2001|Arabic|Biology|Sports & Recreation|Sports|Arts and Sports Science
+AS2030|General Science|Media Technology|Sports & Recreation|Sports|Arts and Sports Science
+AS2005|Biology|Hindu Religious Education|Sports & Recreation|Sports|Arts and Sports Science
+AS2020|General Science|Islamic Religious Education|Sports & Recreation|Sports|Arts and Sports Science
+AS2014|Core Mathematics|Biology|Sports & Recreation|Sports|Arts and Sports Science
+AS2017|Business Studies|General Science|Sports & Recreation|Sports|Arts and Sports Science
+AS2002|Biology|Business Studies|Sports & Recreation|Sports|Arts and Sports Science
+AS2024|General Science|Geography|Sports & Recreation|Sports|Arts and Sports Science
+AS2018|Computer Studies|General Science|Sports & Recreation|Sports|Arts and Sports Science
+AS2028|General Science|Mandarin Chinese|Sports & Recreation|Sports|Arts and Sports Science
+AS2007|Biology|Fasihi ya Kiswahili|Sports & Recreation|Sports|Arts and Sports Science
+AS2012|Biology|Literature in English|Sports & Recreation|Sports|Arts and Sports Science
+AS2025|General Science|German|Sports & Recreation|Sports|Arts and Sports Science
+AS2010|Biology|German|Sports & Recreation|Sports|Arts and Sports Science
+AS2008|Biology|French|Sports & Recreation|Sports|Arts and Sports Science
+AS2015|Biology|Media Technology|Sports & Recreation|Sports|Arts and Sports Science
+AS2019|Christian Religious Education|General Science|Sports & Recreation|Sports|Arts and Sports Science
+AS2004|Biology|Christian Religious Education|Sports & Recreation|Sports|Arts and Sports Science
+AS2022|Fasihi ya Kiswahili|General Science|Sports & Recreation|Sports|Arts and Sports Science
+AS2023|French|General Science|Sports & Recreation|Sports|Arts and Sports Science
+AS2016|Arabic|General Science|Sports & Recreation|Sports|Arts and Sports Science
