@@ -164,9 +164,10 @@ SchoolMS
 </member>
 <member name="T:SchoolMS.ReceiptPrinter">
  <summary>
- Draws the fee receipt in the same shape as the old Excel template:
- school header + crest, SCHOOL FUND RECEIPT, REC NO / DATE / ADM NO / CLASS / NAME,
- amount in words, numbered votehead table with KSH and CT, total, method, served by, balance.
+ Draws an official-looking fee receipt: double green/gold frame, centred crest,
+ school header, ribbon title, framed details, amount in words, a shaded
+ numbered votehead table (KSH / CTS), payment details, balance and a
+ signature + stamp block.
  </summary>
 </member>
 <member name="T:SchoolMS.PrintHelper">
