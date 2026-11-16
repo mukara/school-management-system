@@ -170,6 +170,12 @@ SchoolMS
  signature + stamp block.
  </summary>
 </member>
+<member name="M:SchoolMS.ReceiptPrinter.DrawTextWatermark(System.Drawing.Graphics,SchoolMS.ReceiptData,System.Single,System.Single,System.Single,System.Single)">
+ <summary>
+ Tiles faint, slanted school-name / address watermarks across the body of
+ the receipt - the security pattern used on official school receipts.
+ </summary>
+</member>
 <member name="T:SchoolMS.PrintHelper">
  <summary>
  Shared print engine: branded letterhead, tables, text reports, pagination and previews.
