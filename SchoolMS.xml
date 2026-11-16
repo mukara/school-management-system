@@ -188,6 +188,13 @@ SchoolMS
  a recipient signature block.
  </summary>
 </member>
+<member name="T:SchoolMS.StatementPrinter">
+ <summary>
+ Renders a pupil's fee statement in the same fancy house style as the
+ fee receipt and payment voucher: green/gold double frame, school crest,
+ repeated slanted school-name/address watermark, enlarged fonts, and A5 portrait layout.
+ </summary>
+</member>
 <member name="T:SchoolMS.PrintHelper">
  <summary>
  Shared print engine: branded letterhead, tables, text reports, pagination and previews.
