@@ -153,6 +153,21 @@ SchoolMS
  Compares local version.txt with online version.txt, downloads all files except .db.
  </summary>
 </member>
+<member name="M:SchoolMS.AppUpdater.DownloadFiles(SchoolMS.AppUpdater.UpdateInfo,System.Action{System.Int32,System.Int32,System.String})">
+ <summary>
+ Downloads every non-.db file at the repo root into a temp folder.
+ progress receives (downloaded, total, fileName).
+ </summary>
+</member>
+<member name="M:SchoolMS.AppUpdater.ApplyUpdate(System.Windows.Forms.Form)">
+ <summary>
+ Writes the restart script that waits for this app to exit, replaces the files in the
+ install folder and relaunches. Called once the download has finished.
+ </summary>
+</member>
+<member name="M:SchoolMS.AppUpdater.DownloadAndInstall(SchoolMS.AppUpdater.UpdateInfo,System.Windows.Forms.Form)">
+ <summary>Kept for older callers: download everything, then restart.</summary>
+</member>
 <member name="T:SchoolMS.CbcHelper">
  <summary>
  CBC assessment maths shared by the CBC page and the report cards.
@@ -198,6 +213,15 @@ SchoolMS
  The first column of the supplied SQL must be the primary key; it is hidden.
  </summary>
 </member>
+<member name="M:SchoolMS.frmLogin.ShowUpdateState(SchoolMS.AppUpdater.UpdateInfo)">
+ <summary>Keeps the update button in sync with what GitHub is offering.</summary>
+</member>
+<member name="M:SchoolMS.frmLogin.CheckForUpdates(System.Boolean)">
+ <summary>Checks GitHub in the background. On startup it only speaks up when there is news.</summary>
+</member>
+<member name="M:SchoolMS.frmLogin.PromptForUpdate(SchoolMS.AppUpdater.UpdateInfo)">
+ <summary>Forced update: 12-second countdown, download progress, then restart. No skip.</summary>
+</member>
 <member name="M:SchoolMS.frmMain.SubMenu(System.Windows.Forms.ToolStripMenuItem,System.String)">
  <summary>Adds an empty sub-menu (drop-down) under a top-level item.</summary>
 </member>
@@ -209,6 +233,23 @@ SchoolMS
 </member>
 <member name="M:SchoolMS.frmMain.OpenReport(SchoolMS.ReportSpec)">
  <summary>Opens one of the spec-driven report pages (fees / financial reports).</summary>
+</member>
+<member name="T:SchoolMS.frmUpdatePrompt">
+ <summary>
+ Forced update dialog.
+ Counts down from 12 to 0 ("hold on, we will update for you"), shows download progress,
+ and installs automatically when the countdown ends. The only button is "Update now",
+ which starts the download immediately instead of waiting.
+ </summary>
+</member>
+<member name="M:SchoolMS.frmUpdatePrompt.StartDownload">
+ <summary>Runs whether the user clicks "Update now" or the countdown reaches zero.</summary>
+</member>
+<member name="M:SchoolMS.frmUpdatePrompt.Run(System.Windows.Forms.IWin32Window,SchoolMS.AppUpdater.UpdateInfo,System.Int32)">
+ <summary>
+ Shows the forced update dialog. Returns True when the files are downloaded and ready
+ to be installed (the caller then restarts the app).
+ </summary>
 </member>
 <member name="T:SchoolMS.GridPageSpec">
  <summary>
