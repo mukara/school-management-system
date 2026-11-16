@@ -176,6 +176,17 @@ SchoolMS
  the receipt - the security pattern used on official school receipts.
  </summary>
 </member>
+<member name="T:SchoolMS.VoucherData">
+ <summary>Everything needed to print one payment / receipt voucher.</summary>
+</member>
+<member name="T:SchoolMS.VoucherPrinter">
+ <summary>
+ Draws an official-looking payment voucher in the same green / gold house
+ style as the fee receipt: double frame, crest header, ribbon title,
+ framed voucher details, particulars table, amount in words, certification,
+ a four-way signature block and a faint repeated school-name watermark.
+ </summary>
+</member>
 <member name="T:SchoolMS.PrintHelper">
  <summary>
  Shared print engine: branded letterhead, tables, text reports, pagination and previews.
@@ -398,6 +409,15 @@ SchoolMS
 </member>
 <member name="M:SchoolMS.frmVoucherEntry.AdvanceSerial(System.String)">
  <summary>Bumps the serial after a successful save.</summary>
+</member>
+<member name="M:SchoolMS.frmVoucherEntry.DataFromGridRow(System.Int32)">
+ <summary>Builds a printable voucher from one row of the saved-voucher grid.</summary>
+</member>
+<member name="M:SchoolMS.frmVoucherEntry.DataFromForm">
+ <summary>Builds a printable voucher from the values currently on the form.</summary>
+</member>
+<member name="M:SchoolMS.frmVoucherEntry.SelectVoucherRow(System.String)">
+ <summary>Highlights the voucher that was just saved.</summary>
 </member>
 <member name="T:SchoolMS.frmNewDeposit">
  <summary>Menu entry point for "New Deposit".</summary>
