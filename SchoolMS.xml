@@ -30,6 +30,9 @@ SchoolMS
 <member name="M:SchoolMS.Schema.SeedCbcSamples">
  <summary>Sample national assessments, marks and Grade 7-8 SBA for the CBC demo.</summary>
 </member>
+<member name="P:SchoolMS.Session.IsLicensed">
+ <summary>True when 4.txt with "1" is present in the app folder.</summary>
+</member>
 <member name="T:SchoolMS.FieldSpec">
  <summary>
  Describes one field shown in the generic record editor.
@@ -132,6 +135,26 @@ SchoolMS
 </member>
 <member name="M:SchoolMS.UiTheme.LoadLookup(System.Windows.Forms.ComboBox,System.String,System.String,System.String,System.String)">
  <summary>Loads a combo box from SQL and optionally inserts an "All" row with value 0.</summary>
+</member>
+<member name="T:SchoolMS.Branding">
+ <summary>
+ Per-school identity files that live next to SchoolMS.exe:
+   1.txt = school name
+   2.txt = address
+   3.txt = motto
+   4.txt = licence flag ("1" = licensed)
+ Each file is AES-encrypted and Base64 encoded, using exactly the same scheme as the
+ older TKENYA system, so files made for that system work here unchanged.
+ </summary>
+</member>
+<member name="M:SchoolMS.Branding.IsLicensed">
+ <summary>True when a valid 4.txt containing "1" is present.</summary>
+</member>
+<member name="M:SchoolMS.Branding.HasIdentity">
+ <summary>True when at least one identity file is present and readable.</summary>
+</member>
+<member name="M:SchoolMS.Branding.BuildKey(System.String)">
+ <summary>MD5(password) doubled into a 32-byte AES key - the old scheme.</summary>
 </member>
 <member name="T:SchoolMS.PrintHelper">
  <summary>
@@ -249,6 +272,18 @@ SchoolMS
  <summary>
  Shows the forced update dialog. Returns True when the files are downloaded and ready
  to be installed (the caller then restarts the app).
+ </summary>
+</member>
+<member name="T:SchoolMS.frmActivation">
+ <summary>
+ Blocking gate shown when the school identity/licence files are missing.
+ The user cannot reach the login screen until 1.txt, 2.txt and 3.txt are in place.
+ </summary>
+</member>
+<member name="M:SchoolMS.frmActivation.ShowGate(System.Windows.Forms.IWin32Window)">
+ <summary>
+ Shows the gate when the identity files are missing.
+ Returns True only when the app may continue to the login screen.
  </summary>
 </member>
 <member name="T:SchoolMS.GridPageSpec">
