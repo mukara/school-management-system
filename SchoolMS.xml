@@ -182,9 +182,10 @@ SchoolMS
 <member name="T:SchoolMS.VoucherPrinter">
  <summary>
  Draws an official-looking payment voucher in the same green / gold house
- style as the fee receipt: double frame, crest header, ribbon title,
- framed voucher details, particulars table, amount in words, certification,
- a four-way signature block and a faint repeated school-name watermark.
+ style as the fee receipt, following the school's printed voucher template:
+ payee, particulars / vote head table, cash-cheque number, authorisation,
+ account and vote head to be debited, amount in words, KSH / CTS totals and
+ a recipient signature block.
  </summary>
 </member>
 <member name="T:SchoolMS.PrintHelper">
